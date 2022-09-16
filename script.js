@@ -31,3 +31,15 @@ console.log(a);
 // Comparison Operators
 console.log(ageachini < ageavishka);  // >, <, >=, <=
 console.log(ageavishka >= 18);
+
+// Operator Precedence
+let x, y;
+x = y = 25 - 10 - 5; // x = 10, y = 10
+console.log(x, y);
+
+const birthYear = 2037;
+const age_mom = birthYear - 1978;
+const age_dad = birthYear - 1976;
+
+const averageAge = age_mom + age_dad / 2;
+console.log(age_mom, age_dad, averageAge);
