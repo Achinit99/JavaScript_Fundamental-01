@@ -55,8 +55,7 @@ const BMLMark = massMark / heightMark ** 2;
 const BMIJhone = massJhone / (heightJhone * heightJhone);
 const markHigherBMI = BMLMark > BMIJhone;
 
-console.log(BMLMark, BMIJhone, markHigherBMI); */
-
+console.log(BMLMark, BMIJhone, markHigherBMI); 
 
 // String and Template
 const firstName = "Achini";
@@ -66,10 +65,36 @@ const year = 2022;
 
 const Achini = "I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + "!";
 console.log(Achini);
-//const AchiniNew = 'Im ${firstName}, a ${year - birthYear} year old ${job}!';
-//console.log(AchiniNew);
+
+const AchiniNew = `Im ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(AchiniNew);
 
 console.log("Just a regular string...");
 
-console.log(" String with \n multiple \n lines");
+console.log(" String with \n multiple \n lines"); */
 
+
+// _if_else Statement
+const age = 15;
+
+if (age >= 18)
+{
+    console.log("Achini can start driving license");
+}
+else
+{
+    const yearsLeft = 18 - age;
+    console.log(`Achini is too young. Wait another ${ yearsLeft} years :)`);
+}
+
+const birthYear = 1998;
+let century;
+if (birthYear <= 2000)
+{
+    century = 20;
+}
+else
+{
+    century = 21;
+}
+console.log(century);
