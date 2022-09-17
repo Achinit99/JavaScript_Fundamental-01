@@ -97,7 +97,7 @@ else
 {
     century = 21;
 }
-console.log(century);  */
+console.log(century);  
 
 
 // Type Conversion
@@ -117,4 +117,32 @@ console.log("23" - "10" - 3);
 console.log("23" * "2");
 console.log("23" / "3");
 console.log("23" > "18");
-console.log("23" + "44"); // + sing is not work in string --> 2344
+console.log("23" + "44"); // + sing is not work in string --> 2344   
+*/
+
+// Boolean --> true And false Values
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("Ahinsa"));
+console.log(Boolean({}));
+console.log(Boolean(""));
+
+const money = 100;
+if (money)
+{
+    console.log("Don't spend it all ;)");
+}
+else
+{
+    console.log("You should get a job!");
+}
+
+let height;
+if (height)
+{
+    console.log("YAY! Heiht is defined");
+}
+else
+{
+    console.log("Height is UNDEFINED");
+}
