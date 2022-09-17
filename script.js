@@ -71,7 +71,7 @@ console.log(AchiniNew);
 
 console.log("Just a regular string...");
 
-console.log(" String with \n multiple \n lines"); */
+console.log(" String with \n multiple \n lines"); 
 
 
 // _if_else Statement
@@ -97,4 +97,18 @@ else
 {
     century = 21;
 }
-console.log(century);
+console.log(century);  */
+
+
+// Type Conversion
+const inputYear = "1991";
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
+
+console.log(Number("Jonas"));
+console.log(typeof NaN);
+
+console.log(String(23),23);
+
+
+// Type Conversion
