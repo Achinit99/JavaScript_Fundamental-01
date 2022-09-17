@@ -43,3 +43,16 @@ const age_dad = birthYear - 1976;
 
 const averageAge = age_mom + age_dad / 2;
 console.log(age_mom, age_dad, averageAge);
+
+
+// Coding Challenge
+const massMark = 78;
+const heightMark = 1.69;
+const massJhone = 92;
+const heightJhone = 1.76;
+
+const BMLMark = massMark / heightMark ** 2;
+const BMIJhone = massJhone / (heightJhone * heightJhone);
+const markHigherBMI = BMLMark > BMIJhone;
+
+console.log(BMLMark, BMIJhone, markHigherBMI);
