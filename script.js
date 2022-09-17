@@ -1,4 +1,4 @@
-let js = "amazing";
+/*let js = "amazing";
 console.log(40 + 8 + 23 - 10);
 
 // Variable name conventions
@@ -55,4 +55,21 @@ const BMLMark = massMark / heightMark ** 2;
 const BMIJhone = massJhone / (heightJhone * heightJhone);
 const markHigherBMI = BMLMark > BMIJhone;
 
-console.log(BMLMark, BMIJhone, markHigherBMI);
+console.log(BMLMark, BMIJhone, markHigherBMI); */
+
+
+// String and Template
+const firstName = "Achini";
+const job = "teacher";
+const birthYear = 1999;
+const year = 2022;
+
+const Achini = "I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + "!";
+console.log(Achini);
+//const AchiniNew = 'Im ${firstName}, a ${year - birthYear} year old ${job}!';
+//console.log(AchiniNew);
+
+console.log("Just a regular string...");
+
+console.log(" String with \n multiple \n lines");
+
