@@ -112,3 +112,9 @@ console.log(String(23),23);
 
 
 // Type Conversion
+console.log("I am " + 23 + " years old");
+console.log("23" - "10" - 3);
+console.log("23" * "2");
+console.log("23" / "3");
+console.log("23" > "18");
+console.log("23" + "44"); // + sing is not work in string --> 2344
