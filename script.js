@@ -118,7 +118,6 @@ console.log("23" * "2");
 console.log("23" / "3");
 console.log("23" > "18");
 console.log("23" + "44"); // + sing is not work in string --> 2344   
-*/
 
 // Boolean --> true And false Values
 console.log(Boolean(0));
@@ -146,3 +145,14 @@ else
 {
     console.log("Height is UNDEFINED");
 }
+*/
+
+// Equality Operators ( == vs. ===)  --> dekenma krnne Samanada balana eka
+const age = 18; // Number
+if (age === 18) console.log("You just became an adult:D (string)");
+if (age == 18) console.log("You just became an adult:D (loose)");
+/*   18 === 18 --> true (number)
+     18 === 19 --> false (number)
+    "18" == 18 --> true (string)
+    "18" === 18 --> false (string)
+ */
