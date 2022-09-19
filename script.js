@@ -145,15 +145,15 @@ else
 {
     console.log("Height is UNDEFINED");
 }
-*/
+
 
 // Equality Operators ( == vs. ===)  --> dekenma krnne Same 'da balana eka
 const age = 18; 
-/*   18 === 18 --> true (number)
-     18 === 19 --> false (number)
-    "18" == 18 --> true (string)
-    "18" === 18 --> false (string)
- */
+   //18 === 18 --> true (number)
+   //  18 === 19 --> false (number)
+   // "18" == 18 --> true (string)
+    //"18" === 18 --> false (string)
+ 
 if (age === 18) console.log("You just became an adult:D (string)");
 if (age == 18) console.log("You just became an adult:D (loose)");
 
@@ -178,3 +178,34 @@ else
 }
 
 if (favorite !== 23) console.log("Why not 23 ?");
+*/
+
+// Logical operators
+const hasDriversLicense = true; // A
+const hasGoodVision = true; // B
+
+console.log(hasDriversLicense && hasGoodVision); // true when ALL are ture,
+console.log(hasDriversLicense || hasGoodVision); // true when ONE is ture,
+console.log(!hasDriversLicense); // inverts ture , false value ,
+
+// if (hasDriversLicense && hasGoodVision){
+//     console.log ("sarah is able to drive !");
+// } else {
+//     console.log ("Someone else should drive..");
+// }
+
+const isTired = false;
+console.log (hasDriversLicense && hasGoodVision && isTired);
+if (hasDriversLicense && hasGoodVision && ! isTired){
+    console.log ("sarah is able to drive !");
+} else {
+    console.log ("Someone else should drive..");
+}
+
+const newisTired = true;
+console.log (hasDriversLicense && hasGoodVision && newisTired);
+if (hasDriversLicense && hasGoodVision && ! newisTired){
+    console.log ("sarah is able to drive !");
+} else {
+    console.log ("Someone else should drive..");
+}
