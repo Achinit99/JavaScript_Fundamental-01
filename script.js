@@ -211,7 +211,7 @@ if (hasDriversLicense && hasGoodVision && ! newisTired){
 }
 */
 
-// Coding challenge #3
+// Coding challenge --> #3
 const scoreDolphins = (97 + 112 + 80) / 3;
 const scoreKoalas = (109 + 95 + 50) / 3;
 console.log (scoreDolphins, scoreKoalas);
