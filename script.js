@@ -270,4 +270,13 @@ if (day === "monday") {
 */
 
 // Statements and Expressions
+3 + 4
+1991
+true && false && !false
 
+if (23 > 10) {
+    const str = "23 is bigger";
+}
+
+const me = "Achini";
+console.log (`I'm ${1999 - 2022} years old ${me}`);
