@@ -225,7 +225,7 @@ if (scoreDolphins > scoreKoalas && scoreDolphins >= 100) {
 } else {
     console.log ("No one wins the trophy 😭");
 }
-*/
+
 
 // The switch Statment
 const day = "monday";
@@ -267,4 +267,7 @@ if (day === "monday") {
 } else {
     console.log ("Not a valid day!");
 }
+*/
+
+// Statements and Expressions
 
