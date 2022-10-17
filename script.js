@@ -307,6 +307,15 @@ console.log (`The bill was ${bill}, the tip was ${tip}, and the total value ${bi
 
 ////////////////////////////////////////////////////////////////////////////////////////
 
+// BMI Calculator
+
+function bmiCalculator(weight, height) {
+  var bmi = weight / (height * height);
+  return Math.round(bmi);
+}
+var bmi = bmiCalculator(65, 1.8);
+console.log(bmi);
+
 // Life in Weeks Solutions
 
 /* it will take your current age as the inout and console.logs a message with our time left in this format:
