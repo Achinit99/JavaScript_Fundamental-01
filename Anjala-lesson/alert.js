@@ -1,3 +1,3 @@
-// popup msg -> inspect -> Console -> Enter(Run)
+// popup msg -> inspect -> Sources -> Snippets -> index.js -> *code karanna* -> (Ctrl + Enter)
 
 alert("Hello world!");
