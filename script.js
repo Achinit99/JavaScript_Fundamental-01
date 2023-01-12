@@ -321,7 +321,7 @@ console.log(bmi);
 /* it will take your current age as the inout and console.logs a message with our time left in this format:
    You have x days, y weeks, and z months left.
    Where x,y and z are replaced with the actual calculated numbers.
- */
+
 
 function lifeInWeeks(age) {
   var yearsRemaining = 90 - age;
@@ -341,3 +341,4 @@ function lifeInWeeks(age) {
 }
 
 lifeInWeeks(10);
+*/
