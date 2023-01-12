@@ -24,7 +24,10 @@ var upperCaseFirstChar = firstChar.toUpperCase();
 // c -> Isolate the rest of the name
 var restOfName = name.slice(1, name.length);
 
-// d -> concatenate the first char with the rest of the char
+// d -> Change the rest of the name to lower case
+restOfName = restOfName.toLowerCase();
+
+// e -> concatenate the first char with the rest of the char
 var CapitalisedName = upperCaseFirstChar + restOfName;
 
 //3 We use the capitalised version of their name to greet the using an alert.
